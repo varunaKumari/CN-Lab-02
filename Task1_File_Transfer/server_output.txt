@@ -1,0 +1,32 @@
+[SERVER] Listening on port 8080 ...
+[SERVER] Waiting for client to connect...
+
+[SERVER] Client connected from 127.0.0.1.
+
+[SERVER] Writing received data to 'received_file.txt'.
+
+[SERVER] Received chunk #1  (5000 bytes)  |  total so far: 5000 bytes
+[SERVER] ACK sent for chunk #1.
+
+[SERVER] Received chunk #2  (5000 bytes)  |  total so far: 10000 bytes
+[SERVER] ACK sent for chunk #2.
+
+[SERVER] Received chunk #3  (5000 bytes)  |  total so far: 15000 bytes
+[SERVER] ACK sent for chunk #3.
+
+[SERVER] Received chunk #4  (5000 bytes)  |  total so far: 20000 bytes
+[SERVER] ACK sent for chunk #4.
+
+[SERVER] Received chunk #5  (5000 bytes)  |  total so far: 25000 bytes
+[SERVER] ACK sent for chunk #5.
+
+[SERVER] Received chunk #6  (572 bytes)  |  total so far: 25572 bytes
+[SERVER] ACK sent for chunk #6.
+
+[SERVER] Received EOF signal from client.
+[SERVER] Final ACK sent.
+[SERVER] -------------------------------------------
+[SERVER] Transfer complete. Chunks received : 6
+[SERVER] Total bytes written to file        : 25572
+[SERVER] Output file                        : received_file.txt
+[SERVER] -------------------------------------------
